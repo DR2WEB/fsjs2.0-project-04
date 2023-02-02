@@ -1,0 +1,479 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #151515;
+  color: whitesmoke;
+  max-width: 1440px;
+  overflow-x: hidden;
+}
+section {
+  display: flex;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav img {
+  width: 10%;
+  margin: 1rem 0 0 3rem;
+}
+nav ul {
+  display: flex;
+  gap: 2rem;
+  margin: 2rem 0 0 0;
+}
+nav ul li {
+  list-style: none;
+}
+.side {
+  display: flex;
+}
+.side .contact1 {
+  position: relative;
+  z-index: -1;
+  top: 5.5vh;
+  left: 5vh;
+}
+.side .contact {
+  margin: 2rem 0 0 0;
+  padding-right: 3rem;
+}
+.hero {
+  margin: 6rem 0 0 3rem;
+}
+.hero h1 {
+  line-height: 1.2;
+  font-weight: 500;
+  font-size: 4.5rem;
+  width: 65%;
+  margin-bottom: 1rem;
+}
+.hero span {
+  color: #e626de;
+}
+.hero p {
+  margin-bottom: 30px;
+  color: darkgray;
+  line-height: 1.5;
+  width: 40%;
+}
+.card-image {
+  display: flex;
+}
+.card-image .back-card {
+  position: absolute;
+  bottom: 5.5vw;
+  left: 51.5vw;
+  width: 50%;
+  height: 85vh;
+}
+.card-image .front-card {
+  position: absolute;
+  left: 151vh;
+  width: 50%;
+  height: 85vh;
+}
+.start {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 50px;
+}
+.start .get {
+  margin-top: 8px;
+  margin-left: 18px;
+  color: whitesmoke;
+  font-weight: 400;
+}
+.start svg {
+  position: absolute;
+  left: 3vw;
+  z-index: -1;
+}
+.start .arrow {
+  margin-top: 7px;
+}
+.rating {
+  display: flex;
+  margin-left: 2rem;
+  margin-bottom: 8rem;
+}
+.rating .happy-customer {
+  display: flex;
+  gap: 10px;
+}
+.happy-customer h1 {
+  font-family: "Manrope", sans-serif;
+}
+.happy-customer p {
+  width: 40%;
+  line-height: 1.5;
+}
+.happy-customer span {
+  color: #e626de;
+  font-size: 25px;
+  position: relative;
+  bottom: 0.5vh;
+}
+.rating svg {
+  margin-right: 3rem;
+  height: 10vh;
+}
+.rating .experiance {
+  display: flex;
+  gap: 10px;
+}
+.experiance p {
+  width: 10%;
+  line-height: 1.5;
+}
+.experiance span {
+  color: #e626de;
+  font-size: 25px;
+  position: relative;
+  bottom: 0.5vh;
+}
+.imgs {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  background-color: #292929;
+  padding: 5rem 3rem;
+}
+.imgs img {
+  width: 10%;
+}
+.text {
+  display: flex;
+  margin: 10rem 0 0 5rem;
+}
+.text h1 {
+  font-size: 75px;
+  font-weight: 500;
+  width: 60%;
+}
+.text p {
+  font-size: 16px;
+  width: 26.5%;
+  line-height: 1.5;
+  margin-top: 5rem;
+}
+.text span {
+  color: #e626de;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin: 5rem 0 7rem 0;
+  /* text-align: center; */
+}
+.dollar {
+  background-color: #272727;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 3rem;
+  padding-top: 2rem;
+  border-style: none;
+}
+.dollar h4 {
+  font-size: 20px;
+}
+.dolar {
+  width: 70%;
+  padding-bottom: 1rem;
+}
+.cloud {
+  position: relative;
+  bottom: 5vh;
+  background-color: #545352;
+  border: 1px solid white;
+  padding-bottom: 3rem;
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border-style: none; */
+}
+.cloud .clod {
+  width: 50%;
+}
+.cloud h4 {
+  text-align: center;
+  width: 60%;
+}
+.Lock {
+  background-color: #545352;
+  border: solid white;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-bottom: 2.5rem;
+  padding-top: 2rem;
+  border-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Lock .lock {
+  margin-bottom: 1rem;
+}
+.white {
+  background-color: #fceffb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.white .card-choices {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.white div h1 {
+  font-weight: 600;
+  text-align: center;
+  line-height: 1.5;
+  padding-top: 5rem;
+  font-size: 55px;
+  color: #0c0c0c;
+  width: 70%;
+}
+.white div span {
+  color: #f639ec;
+}
+.white div p {
+  font-weight: 100;
+  color: #0c0c0c;
+  text-align: center;
+  width: 55%;
+  margin-top: 3.5rem;
+}
+.white .cards-image {
+  position: relative;
+  bottom: 3vh;
+}
+.black div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 7rem;
+}
+.black div h1 {
+  margin-bottom: 3rem;
+  line-height: 1.5;
+  width: 80%;
+  font-size: 65px;
+  text-align: center;
+  font-weight: 300;
+}
+.black div span {
+  color: #e626de;
+  font-weight: 800;
+}
+.black div p {
+  font-size: 17px;
+  text-align: center;
+  width: 40%;
+  line-height: 1.5;
+  margin-bottom: 5rem;
+}
+.features {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.features .first {
+  margin-left: 5rem;
+  width: 80%;
+}
+.features .first .melvin {
+  border: 0.5px solid white;
+  padding: 1rem 3rem 0 0 0;
+  margin: 0 0 7rem 0;
+  background-color: #52504f;
+}
+.features .first .melvin img {
+  margin-left: 1.9rem;
+  margin-top: 2rem;
+}
+.melvin .p {
+  line-height: 1.5;
+  padding: 2rem 0 2rem 2rem;
+  width: 83%;
+}
+.features .first .melvin h6 {
+  font-weight: 700;
+  margin-left: 2rem;
+  font-size: 17px;
+  margin-bottom: 0.5rem;
+}
+.features .first .melvin .-p {
+  color: darkgray;
+  font-size: 15px;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 100;
+}
+.features .first .Farhan {
+  background-color: #1e1f24;
+  border: 0.5px solid;
+  border-style: none;
+  padding: 0 5rem 0 0;
+}
+.features .first .Farhan img {
+  margin: 2rem 0 0 1.9rem;
+}
+.first .Farhan .p-3 {
+  line-height: 1.5;
+  margin: 1.5rem 0 0 2rem;
+}
+.first .Farhan h6 {
+  font-size: 17px;
+  margin: 1.5rem 0 0.5rem 2rem;
+}
+.first .Farhan .P-3 {
+  color: gray;
+  padding: 0 0 1rem 2rem;
+}
+.second .Gabriel {
+  width: 80%;
+  border-top: 0.5px solid white;
+  border-left: 0.5px solid white;
+  padding: 1rem 3rem 0 0 0;
+  margin: 0 0 4.5rem 0;
+  background-color: #1e1f24;
+}
+.second .Gabriel .P-1 {
+  line-height: 1.5;
+  margin: 2rem 0 1.5rem 2rem;
+  width: 80%;
+}
+.second .Gabriel h6 {
+  font-size: 17px;
+  margin: 0 0 0.5rem 2rem;
+}
+.second .Gabriel .p-1 {
+  color: gray;
+  margin-left: 2rem;
+  padding-bottom: 2rem;
+}
+.second .Gabriel img {
+  margin-left: 1.9rem;
+  margin-top: 2rem;
+}
+.second .Alex {
+  border-top: 0.5px solid white;
+  border-left: 0.5px solid white;
+  background-color: #1e1f24;
+  width: 80%;
+}
+.second .Alex img {
+  margin-left: 1.9rem;
+  margin-top: 2rem;
+}
+.second .Alex .p-4 {
+  width: 85%;
+  line-height: 1.5;
+  margin: 2rem 0 1.5rem 2rem;
+}
+.second .Alex h6 {
+  font-weight: 700;
+  margin-left: 2rem;
+  font-size: 17px;
+  margin-bottom: 0.5rem;
+}
+.Alex .P-4 {
+  color: gray;
+  margin-left: 2rem;
+  padding-bottom: 1rem;
+}
+.box {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 3rem 0;
+  margin: 5rem 0 5rem 0;
+}
+.box > .pink {
+  box-shadow: 0 0 40px 0 #e626de;
+  background-color: #e626de;
+  border: 1px solid #545352;
+  border-style: none;
+  padding: 0 3rem;
+  border-radius: 50px;
+}
+.box .ball {
+  border: 10px solid #545352;
+  border-radius: 50%;
+}
+.Rectangle-1 .pink-rectangle {
+  position: absolute;
+  top: 800vh;
+  z-index: -1;
+}
+.Rectangle-1 .rectangle-2 {
+  position: absolute;
+  top: 800vh;
+  z-index: -1;
+}
+.Rectangle-1 .diamonds {
+  display: flex;
+  justify-content: space-between;
+}
+.diamonds .diamond-1 {
+  padding-top: 3.2rem;
+}
+.custom {
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  position: absolute;
+  right: -15vw;
+  top: 342vw;
+}
+.custom h1 {
+  width: 80%;
+  font-weight: 600;
+  text-align: center;
+  font-size: 4.5rem;
+}
+.custom span {
+  color: #0c0c0c;
+}
+.custom-get {
+  display: flex;
+  position: absolute;
+  top: 360vw;
+  right: 38vw;
+}
+.custom-get span {
+  font-size: 1.5rem;
+}
+.custom-get svg {
+  position: absolute;
+  top: -1.5vh;
+  margin-left: -3rem;
+  z-index: -1;
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+  margin: 10rem 0 7rem 0;
+}
+footer img {
+  padding-bottom: 1rem;
+}
+footer ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 2rem;
+  margin: 0 20rem 0 0;
+}
